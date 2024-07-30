@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header_text {
+  background-color: #87cefa;
+  height: 80px;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.operating {
+  text-align: center;
+  padding-right: 2rem;
+  padding-top: 20px;
+}
+
+.order {
+  background-color: #b0c4de;
+  height: 4rem;
+  width: 15rem;
+  font-size: 25px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Redo {
+  background-color: #e6e6fa;
+  border-radius: 3em;
+  height: 3rem;
+  width: 10rem;
+}
+
+.Squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one_square {
+  height: 5rem;
+  width: 5rem;
+  background-color: #008000;
+  font-size: 40px;
+  color: #fff;
+}
+
+.information {
+  background-color: #1e90ff;
+  color: #fff;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

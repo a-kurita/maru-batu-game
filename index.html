@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>まるばつゲーム</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header_text">まるばつゲーム</h1>
+    </header>
+
+    <main>
+      <div class="playArea">
+        <div class="operating">
+          <div class="order">
+            <p id="player">のターン</p>
+          </div>
+          <input
+            class="Redo"
+            type="button"
+            value="リセット"
+            onclick="reset()"
+          />
+        </div>
+
+        <div class="gameHall">
+          <div class="Squares">
+            <input
+              id="1"
+              class="one_square"
+              type="button"
+              onclick="writeMark(1)"
+            />
+            <input
+              id="2"
+              class="one_square"
+              type="button"
+              onclick="writeMark(2)"
+            />
+            <input
+              id="3"
+              class="one_square"
+              type="button"
+              onclick="writeMark(3)"
+            />
+          </div>
+          <div class="Squares">
+            <input
+              id="4"
+              class="one_square"
+              type="button"
+              onclick="writeMark(4)"
+            />
+            <input
+              id="5"
+              class="one_square"
+              type="button"
+              onclick="writeMark(5)"
+            />
+            <input
+              id="6"
+              class="one_square"
+              type="button"
+              onclick="writeMark(6)"
+            />
+          </div>
+          <div class="Squares">
+            <input
+              id="7"
+              class="one_square"
+              type="button"
+              onclick="writeMark(7)"
+            />
+            <input
+              id="8"
+              class="one_square"
+              type="button"
+              onclick="writeMark(8)"
+            />
+            <input
+              id="9"
+              class="one_square"
+              type="button"
+              onclick="writeMark(9)"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="information">
+      <p>© 2024 MarubatsuGame for Engineer School</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
